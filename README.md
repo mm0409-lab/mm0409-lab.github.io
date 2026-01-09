@@ -6,6 +6,5 @@
   <body>
   <h1>Enjoy</h1>
   <p>this game will be click the proper image it will advance from easier to harder goodluck!</p>
-  <button>cheese</button>
   </body>
 </html>
