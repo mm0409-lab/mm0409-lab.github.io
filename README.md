@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> <h1>Welcome to my game</h1></title>
+    <h1>Welcome to my game</h1>
   </head>
   <body>
-  <h1>Enjoy</h1>
-  <p>this game will be click the proper image it will advance from easier to harder goodluck!</p>
+ <p>In this game you will have to click the correct image</p>
+    <hr>
+    <h3>Pick the image with the cat in it.</h3>
+    
   </body>
 </html>
