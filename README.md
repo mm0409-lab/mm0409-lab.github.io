@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to my game</title>
+    <title> <h1>Welcome to my game</h1></title>
   </head>
   <body>
   <h1>Enjoy</h1>
