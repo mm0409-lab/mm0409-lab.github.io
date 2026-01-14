@@ -1,86 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Simple One Page Website</title>
-
-    <style>
-        /* Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background-color: #f2f2f2;
-            text-align: center;
-            color: #333;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 40px 20px;
-        }
-
-        section {
-            padding: 40px 20px;
-        }
-
-        .box {
-            background: white;
-            padding: 20px;
-            max-width: 400px;
-            margin: 20px auto;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        button {
-            padding: 10px 20px;
-            border: none;
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #3e8e41;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            padding: 15px;
-            margin-top: 40px;
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>My Simple Website</h1>
-        <p>HTML & CSS in one file</p>
-    </header>
-
-    <section>
-        <div class="box">
-            <h2>About</h2>
-            <p>
-                This is a simple one-page website using
-                HTML and CSS together.
-            </p>
-            <br>
-            <button>Click Me</button>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2026 My Website</p>
-    </footer>
-
+<html>
+<body style="text-align:center; font-family:Arial;">
+<h3>Click the correct image</h3>
+<img src="https://tenor.com/search/cute-monkey-gifs" onclick="result.textContent='Wrong ❌'">
+<img src="https://cfa.org/breed/british-shorthair/" onclick="result.textContent='Correct ✅'">
+<p id="result"></p>
 </body>
 </html>
